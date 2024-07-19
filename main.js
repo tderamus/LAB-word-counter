@@ -8,12 +8,18 @@ const wordCounter = (value) => {
 
   if (value) {
     // COMPLETE THE LOGIC 
-    wordCount.innerHTML = `Word Count: 0`; 
+    wordCount.innerHTML = value; 
+      //   for(let i = 0; i < value.length; i ++){
+      //     let totalWords = i;
+      //   } 
+      //  wordCount.innerHTML = totalWords; 
   } else {
     // if the value is empty, set the error message value to "Please input text"
     error.innerHTML = "Please input text"; // UPDATE THIS
   }
 }
+
+wordCounter(value)
 
 // OPTIONAL CHALLENGE
 const toggleMode = (btnText) => {
