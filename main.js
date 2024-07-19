@@ -1,4 +1,5 @@
-javascript
+
+//javascript
 console.log("Connected!")
 // YOU WILL MODIFY THIS FUNCTION TO GET THE PROGRAM TO WORK
 const wordCounter = (value) => {
@@ -10,7 +11,7 @@ const wordCounter = (value) => {
     wordCount.innerHTML = `Word Count: 0`; 
   } else {
     // if the value is empty, set the error message value to "Please input text"
-    error.innerHTML = ""; // UPDATE THIS
+    error.innerHTML = "Please input text"; // UPDATE THIS
   }
 }
 
