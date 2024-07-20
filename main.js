@@ -9,14 +9,14 @@ const wordCounter = (value) => {
     // COMPLETE THE LOGIC 
     let totalChars = 0;
     let totalSpaces = 0;
-    let totalWords = [];
+    let totalWords = 0;
     // let result = value.spit(" ");
     for(let i = 0; i < value.length; i++){
       if(value[i] === " "){
         totalSpaces++;
       }
       totalChars++;
-      totalWords.push(value.split([i]));
+      totalWords = totalSpaces + 1;
     }
     
     wordCount.innerHTML = `Word Count: ${totalWords}`; 
